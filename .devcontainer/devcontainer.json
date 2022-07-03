@@ -1,0 +1,11 @@
+{
+    "name": "container",
+    "dockerComposeFile": [
+      "../docker-compose.yml"
+    ],
+    "service": "simple-container",
+    "workspaceFolder": "/home/",
+    "extensions": [
+      "ms-python.python"
+  ]
+  }
