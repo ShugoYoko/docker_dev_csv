@@ -1,0 +1,7 @@
+version: '3'
+services:
+  simple-container:
+    image: python:latest
+    tty: true
+    volumes:
+      - ./src:/home/:cached
